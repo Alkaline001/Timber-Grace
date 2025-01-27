@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Section</title>
+    <script src="https://kit.fontawesome.com/61107a0cf8.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .contact-section {
+            background-color: #f9f9f9;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .contact-section p {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .contact-section .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .contact-section .social-icons a {
+            color: #fff;
+            background-color: #0077b5; /* Default LinkedIn color */
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 1.5em;
+            transition: background-color 0.3s;
+        }
+
+        .contact-section .social-icons a.facebook {
+            background-color: #3b5998;
+        }
+
+        .contact-section .social-icons a.twitter {
+            background-color: #1da1f2;
+        }
+
+        .contact-section .social-icons a.instagram {
+            background-color: #e4405f;
+        }
+
+        .contact-section .social-icons a:hover {
+            opacity: 0.8;
+        }
+
+        .contact-section .email {
+            margin-top: 30px;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .contact-section .email a {
+            color: #0077b5;
+            text-decoration: none;
+        }
+
+        .contact-section .email a:hover {
+            text-decoration: underline;
+        }
+        .contact-form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .contact-form input, 
+    .contact-form textarea, 
+    .contact-form button {
+      width: 90%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 16px;
+      outline: none;
+    }
+
+    .contact-form input::placeholder,
+    .contact-form textarea::placeholder {
+      color: #aaa;
+    }
+
+    .contact-form textarea {
+      resize: none;
+      
+      height: 100px;
+    }
+
+    .contact-form button {
+      background-color: #ff6600;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .contact-form button:hover {
+      background-color: #e65500;
+    }
+    </style>
+</head>
+<body>
+    <header style="height: 100px; background-color: #3b5998; text-align: center; margin-bottom: 0px;">
+        <h1> Timber & Grace</h1>
+        
+           
+          </div>
+    </header>
+
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! <br><br> The Timber & Grace Team is committed to providing you with premier customer support. <br> <br>
+             Please reach out to us by phone, email, 
+            or through the contact form and we will be in touch..</p>
+        <div id="contact-section">
+            <div class="social-icons" style="text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+          
+            transition: transform 0.5s;">
+                <a href="+254700480098" style="color: rgb(55, 54, 54);"><i class="fa-sharp fa-solid fa-phone-volume"></i></a>
+                <a href="https://wa.link/y8zz6m" style="color: green;"><i class="fa-brands fa-square-whatsapp"></i></a>
+                <a href="limaajnr@gmail.com" style="color: blue;"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://x.com/YatzaaAlkaline?t=0_3ktpLrkt6F3s6R5g&s=08" style="color: rgb(4, 4, 70);"><i class="fa-brands fa-x-twitter"></i></a>
+                
+        
+            </div>
+        </div>
+        <div style=" font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f5f5f5;">
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit">Contact Us</button>
+              </form>
+        </div>
+        <div class="email">
+            <p>Email us at: <a href="limaajnr@gmail.com">info@timber&grace.com</a></p>
+        </div>
+    </section>
+
+</body>
+</html>

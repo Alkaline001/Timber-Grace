@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timber & Grace</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/61107a0cf8.js" crossorigin="anonymous"></script>
+    
+ 
+</head>
+<body>
+    <header style="height: 100px;">
+        <div class="logo">
+            <img src="Yellow Black Bright Round Sofa Line Icon Furniture Logo.png" alt="Logo">
+            <strong style="font-size: large; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Timber <br> & <br>Grace</strong>
+        </div>
+        <div class="search-bar">
+            <select>
+                <option value="all">All Categories</option>
+                <option value="furniture">Furniture</option>
+                <option value="decor">Decor</option>
+                <option value="outdoor">Outdoor</option>
+            </select>
+            <input type="text" placeholder="Search products...">
+            <button>Search</button>
+            
+        </div>
+        <div class="nav-buttons" style="display: flex; gap: 10px; ">
+            <button style="background-color: #007bff; padding: 10px; border-radius: 5px;"><a href="#header" style="text-decoration: none;">Home</a></button>
+            <button style="background-color: #007bff; padding: 10px; border-radius: 5px;"><a href="about.html" style="text-decoration: none;" >About</a></button>
+            <button style="background-color: #007bff; padding: 10px; border-radius: 5px;"><a href="contact.html" style="text-decoration: none;">Contact</a></button>
+        </div>
+        <p style="text-align: center; font-family:Futura Oblique; margin-bottom: 5px
+        ; font-size: small;"
+        >"Free delivery countrywide.Make your order and we make it up to you.Deliveries take upto 72hrs."</p>
+    </header>
+    <div class="container">
+        <section class="products" id="product-list">
+            <!-- Always visible products -->
+            <div class="product" data-name="Product 1" data-price="15000">
+                <img src="hanging-chair-5200722.jpg" alt="Product 1 Image">
+                <h2>Hanging egg chair</h2>
+                <p style="font-size: 8px;">An outdoor black hanging egg chair with cushions.</p>
+                <p>Ksh.15,000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" data-name="Product 2" data-price="4000">
+                <img src="furniture-4687954.jpg" alt="Product 2 Image">
+                <h2>Chesterfield loveseat</h2>
+                <p style="font-size: 8px;"> A plush, mustard-yellow Chesterfield loveseat with tufted upholstery.</p>
+                <p>Ksh.4000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" data-name="Product 3" data-price="5000">
+                <img src="sofa-2155865_1920.jpg" alt="Product 3 Image">
+                <h2>Wicker Sofa with Cushions</h2>
+                <p style="font-size: 8px;">Elegant wicker sofa featuring a curved frame and an airy design.</p>
+                <p>Ksh.5000</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Hidden products -->
+            <div class="product hidden" data-name="Product 4" data-price="5000">
+                <img src="sofa-1091071.jpg" alt="Product 4 Image">
+                <h2>Fabric Upholstered Sofa</h2>
+                <p style="font-size: 8px;">Contemporary three-seater sofa with a bold patterned fabric in geometric motifs.</p>
+                <p>Ksh.5000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product hidden" data-name="Product 5" data-price="6000">
+                <img src="sideboard-947199.png" alt="Product 5 Image">
+                <h2>Sideboard</h2>
+                <p style="font-size: 8px;"> Has two cabinets with decorative wrought iron hardware.</p>
+                <p>Ksh.6000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product hidden" data-name="Product 6" data-price="2500">
+                <img src="rattan-1462860.jpg" alt="Product 6 Image">
+                <h2>Rattan Peacock Chair</h2>
+                <p style="font-size: 8px;">A handcrafted rattan chair with an ornate peacock design</p>
+                <p>Ksh.2500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product hidden" data-name="Product 7" data-price="2000">
+                <img src="living-room-8368382.jpg" alt="Product 7 Image">
+                <h2>Armchair</h2>
+                <p style="font-size: 8px;">Vibrant armchair with geometric patterns.</p>
+                <p>Ksh.2000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product hidden" data-name="Product 8" data-price="12000">
+                <img src="leather-sofa-186636_1920.jpg" alt="Product 8 Image">
+                <h2>Black Leather Sofa Set</h2>
+                <p style="font-size: 8px;">It includes a 3-seater and a 2-seater, ideal for a modern living room.</p>
+                <p>Ksh.12000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product hidden" data-name="Product 9" data-price="1500">
+                <img src="home-5667532.jpg" alt="Product 9 Image">
+                <h2>Accent Chair</h2>
+                <p style="font-size: 8px;">Stylish piece that adds a pop of color or design to a room.</p>
+                <p>Ksh.1500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product hidden" data-name="Product 10" data-price="5000">
+                <img src="ai-generated-8154089.jpg" alt="Product 10 Image">
+                <h2>Turquoise armchair</h2>
+                <p style="font-size: 8px;">Single and appealing armchair.</p>
+                <p>Ksh.5000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product hidden" data-name="Product 11" data-price="5000">
+                <img src="branded_garden_image_diagonal.png" alt="Product 11 Image">
+                <h2>Outdoor Cast Iron Bistro Set </h2>
+                <p style="font-size: 8px;">Includes two ornate chairs and a round table with intricate detailing.</p>
+                <p>Ksh.5000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product hidden" data-name="Product 12" data-price="7000">
+                <img src="antique-sideboard-948527.png" alt="Product 12 Image">
+                <h2>Antique Sideboard</h2>
+                <p style="font-size: 8px;">Classic wooden sideboard with a rich, polished finish.</p>
+                <p>Ksh.7000</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product hidden" data-name="Product 13" data-price="16000">
+                <img src="furniture-3208819.jpg" alt="Product 13 Image">
+                <h2>Modern Living Room Furniture Set </h2>
+                <p style="font-size: 8px;">Consisting of two sofas and an armchair.</p>
+                <p>Ksh.16000</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <button id="see-more" style="background-color: #007bff;padding: 8px;
+            border-radius: 5px;text-align: center; margin-top: 5px;">See More</button>
+       
+        <div id="cart">
+            <h2>Shopping Cart</h2>
+            <ul></ul>
+            <p class="total">Total: Ksh.0</p>
+            <button id="checkout"
+            style="background-color: #007bff;padding: 8px;
+            border-radius: 5px;">Checkout</button>
+        </div>
+    </div>
+    <div id="about-section" style="display: none; text-align: center; padding: 20px; background-color: #fff; margin: 10px 20px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+        <h2>About </h2>
+        <p>
+            Welcome to Timber & Grace! Our passion is crafting furniture that blends timeless elegance 
+            with modern designs. Every piece tells a story, bringing warmth and style into your living space. 
+            From handcrafted masterpieces to contemporary essentials, we're here to make your home truly yours.
+        </p>
+    </div>
+    
+   <!-- Contact Section -->
+<div id="contact-section">
+    <div class="social-icons" style="text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+  
+    transition: transform 0.5s;">
+        <a href="+254700480098" style="color: rgb(55, 54, 54);"><i class="fa-sharp fa-solid fa-phone-volume"></i></a>
+        <a href="https://wa.link/y8zz6m" style="color: green;"><i class="fa-brands fa-square-whatsapp"></i></a>
+        <a href="limaajnr@gmail.com" style="color: blue;"><i class="fa-regular fa-envelope"></i></a>
+        <a href="https://x.com/YatzaaAlkaline?t=0_3ktpLrkt6F3s6R5g&s=08" style="color: rgb(4, 4, 70);"><i class="fa-brands fa-x-twitter"></i></a>
+        
+
+    </div>
+</div>
+
+        </div>
+        
+    </div>
+    <footer>
+    <div class="copyright" style=" text-align: center;
+    flex-grow: 1;">
+        &copy; 2025 Timber & Grace. All Rights Reserved.
+    </div>
+</footer>
+   <script src="script.js"></script>
+</body>
+</html>
